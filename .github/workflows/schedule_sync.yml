@@ -2,7 +2,7 @@ name: Run Tado-Octopus Script
 
 on:
   schedule:
-    # Runs every MONDAY at 1.36Am GTM
+    # Runs every MONDAY at 1.36Am GMT
     - cron: '36 01 14 10 1'
 
 jobs:
