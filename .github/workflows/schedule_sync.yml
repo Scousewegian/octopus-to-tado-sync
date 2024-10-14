@@ -2,8 +2,8 @@ name: Run Tado-Octopus Script
 
 on:
   schedule:
-    # Runs every Wednesday at 12pm UTC
-    - cron: '0 12 * * 3'
+    # Runs every MONDAY at 13.4Am UTC
+    - cron: '5 4 14 10 1'
 
 jobs:
   run_script:
